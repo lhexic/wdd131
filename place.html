@@ -1,0 +1,70 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Jonathan Kwadjo Azanu">
+    <meta name="description" content="Page with information of Ghana the country where I live in, and it is my assignment of week 3">
+    <title>Country Page: Ghana - WDD 131</title>
+     <link rel="stylesheet" href="styles/place.css">
+     <link rel="stylesheet" href="styles/place-large.css">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    <script src="scripts/place.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Ghana</h1>
+    </header>
+    <main>
+        <div class="hero">
+        <picture>
+            <source srcset="images/accra_ghana_large.webp" media="(min-width: 1000px )" >
+            <source  srcset="images/accra_ghana_medium.webp" media="(min-width: 500px )" >
+            <img src="images/accra_ghana_small.webp" alt="The accra arch freedom Ghana justice stock photos, high-definition images, and pictures" width="1500" height="750">
+        </picture>
+    </div>
+    <section class="card data-card">
+        <div class="card-title">
+            <h2>Data</h2>
+        </div>    
+          <div class="card-body">
+                <table class="info-table">
+                    <tr><td class="label">Area:</td><td class="value">238.533 km²</td></tr>
+                    <tr><td class="label">Population:</td><td class="value">35,700,000</td></tr>
+                    <tr><td class="label">Capital:</td><td class="value">Ghana</td></tr>
+                    <tr><td class="label">Languages:</td><td class="value">English</td></tr>
+                    <tr><td class="label">Currency:</td><td class="value">Ghanaian Cedi (GH₵)</td></tr>
+                    <tr><td class="label">Time Zone:</td><td class="value">UTC+00:00</td></tr>
+                    <tr><td class="label">Calling Code:</td><td class="value">+233</td></tr>
+                    <tr><td class="label">Internet TLD:</td><td class="value">.gh</td></tr>
+                </table>
+            </div>
+        </section>
+
+        <section class="card weather-card">
+           <div class="card-title">
+            <h2>Weather</h2>
+    
+        </div>  
+           <div class="card-body">
+                <div class="mobile-weather-icon">
+                    <img src="images/weather.svg" alt="weather icon" class="weather-icon">
+                </div>
+                <table class="info-table">
+                    <tr><td class="label">Temperature:</td><td class="value">28°C to 30°C</td></tr>
+                    <tr><td class="label">Conditions:</td><td class="value">Cloudy Skies and High Humidity</td></tr>
+                    <tr><td class="label">Wind:</td><td class="value">16 km/h</td></tr>
+                    <tr><td class="label">Wind Chill:</td><td class="value" id="wind-chill">10 °C</td></tr>
+                </table>
+            </div>
+        </section>
+    </main>
+    <footer>
+         <p>©<span id="currentyear"></span> Jonathan Kwadjo Azanu - Ghana</p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+</html>
