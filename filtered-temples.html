@@ -1,0 +1,47 @@
+
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Temple Album</title>
+    <meta name="description"
+        content="A responsive temple album showcasing temples worldwide with captions, responsive navigation, and dynamic footer.">
+    <meta name="author" content="Jonathan Kwadjo Azanu">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/filtered-temples.css">
+    <link rel="stylesheet" href="styles/filtered-temples-large.css">
+
+    <script src="scripts/filtered-temples.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <h1>Temple Album</h1>
+        <button class="menu-button" aria-label="Menu" aria-expanded="false"></button>
+        <nav aria-label="Main Navigation">
+            <a href="#">Home</a>
+            <a href="#">Old</a>
+            <a href="#">New</a>
+            <a href="#">Large</a>
+            <a href="#">Small</a>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Home</h2>
+        <div id="temple-cards"></div>
+    </main>
+
+    <footer>
+        <p>©<span id="year"></span> 🔆🌱 <strong>Jonathan Kwadjo Azanu</strong> 🔆🌱 Ghana</p>
+        <p>Last Modified: <span id="lastModified"></span></p>
+    </footer>
+</body>
+
+</html>
