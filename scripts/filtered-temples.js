@@ -5,8 +5,7 @@ const temples = [
         dedicated: "2004, January, 11",
         area: 17500,
         imageUrl: "https://www.churchofjesuschrist.org/imgs/7cf8e8b9e5a5a1f379d4e2c9bc2166f9c6007aca/full/640%2C/0/default"
-    },
-    
+    }, 
     {
         templeName: "Payson Utah",
         location: "Payson, Utah, United States",
