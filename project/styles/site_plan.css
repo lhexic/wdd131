@@ -155,3 +155,50 @@ footer {
     font-size: 0.9rem;
     color: #94a3b8;
 }
+
+/* Color Palette Display Utility Classes */
+.palette-primary {
+    background-color: #0f172a;
+}
+
+.palette-secondary {
+    background-color: #38bdf8;
+    color: #0f172a;
+}
+
+.palette-accent {
+    background-color: #f43f5e;
+}
+
+.palette-subtext {
+    font-size: 0.8rem;
+    font-weight: normal;
+}
+
+/* Wireframe Structural Utility Classes */
+.wireframe-mobile-hero {
+    height: 80px;
+}
+
+.wireframe-desktop-wrapper {
+    flex: 1.5;
+}
+
+.wireframe-desktop-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #cbd5e1;
+    padding: 5px 10px;
+    margin-bottom: 8px;
+}
+
+.wireframe-desktop-hero {
+    height: 100px;
+    padding-top: 30px;
+}
+
+.wireframe-desktop-footer {
+    background: #f43f5e;
+    color: #ffffff;
+}
