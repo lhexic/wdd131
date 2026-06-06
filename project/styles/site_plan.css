@@ -1,0 +1,157 @@
+/* ==========================================================================
+   COLOR SCHEMA & TYPOGRAPHY (Step 3: CSS)
+   Primary: #0f172a (Deep Slate) - Backgrounds, main headings
+   Secondary: #38bdf8 (Sky Blue) - Accents, links, borders
+   Accent: #f43f5e (Rose) - Highlights, key focal points
+   Neutral Light: #f8fafc (Off-white) - Main body background
+   Neutral Dark: #334155 (Charcoal) - Body text
+   ========================================================================== */
+
+:root {
+    --primary-color: #0f172a;
+    --secondary-color: #38bdf8;
+    --accent-color: #efdf77;
+    --bg-color: #f8fafc;
+    --text-color: #334155;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Body Font */
+    line-height: 1.6;
+    color: var(--text-color);
+    background-color: var(--bg-color);
+    margin: 0;
+    padding: 20px;
+}
+
+header {
+    background-color: var(--primary-color);
+    color: #ffffff;
+    padding: 30px;
+    text-align: center;
+    border-bottom: 5px solid var(--secondary-color);
+    margin-bottom: 30px;
+}
+
+h1, h2, h3 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; /* Heading Font */
+    color: var(--primary-color);
+}
+
+header h1 {
+    color: #ffffff;
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+header p {
+    color: var(--secondary-color);
+    margin-top: 10px;
+    font-size: 1.1rem;
+}
+
+main {
+    max-width: 900px;
+    margin: 0 auto;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+section {
+    margin-bottom: 40px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+section:last-of-type {
+    border-bottom: none;
+}
+
+ul, ol {
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+/* Color Palette Display styling */
+.color-palette {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 15px;
+}
+
+.color-box {
+    flex: 1;
+    min-width: 150px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 6px;
+    color: #fff;
+    font-weight: bold;
+    box-shadow: inset 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Wireframe Mockup Layouts */
+.wireframe-container {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+.wireframe {
+    background: #f1f5f9;
+    border: 2px dashed #94a3b8;
+    padding: 15px;
+    border-radius: 6px;
+    flex: 1;
+    min-width: 280px;
+}
+
+.wireframe h4 {
+    margin-top: 0;
+    text-align: center;
+    color: var(--primary-color);
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+}
+
+.mock-element {
+    background: #cbd5e1;
+    padding: 10px;
+    margin: 8px 0;
+    text-align: center;
+    font-size: 0.8rem;
+    color: #475569;
+    border-radius: 4px;
+}
+
+.mock-grid {
+    display: flex;
+    gap: 10px;
+}
+
+.mock-col {
+    flex: 1;
+    background: #cbd5e1;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.8rem;
+    color: #475569;
+    border-radius: 4px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 0.9rem;
+    color: #94a3b8;
+}
