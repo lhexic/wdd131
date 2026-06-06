@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lhexiverse - Site Plan</title>
     <meta name="description" content="Site planning document for Lhexiverse, a creative technical portfolio hub outlining its purpose, audience scenarios, color schema, typography, and layout wireframes.">
-    <meta name="author" content="Jonathan Kwadjo Azanu">
+    <meta name="author" content="Your Name">
+
     <link rel="stylesheet" href="styles/site_plan.css">
 </head>
 <body>
@@ -20,6 +21,7 @@
             <h2>1. Site Name</h2>
             <p><strong>Name:</strong> Lhexiverse</p>
             <p><strong>Description:</strong> The name merges "Lhex" (a unique, personalized identity handle) with "Universe." It represents an expansive, multi-faceted digital ecosystem where front-end development, creative coding, and personal tech projects converge into one unified space.</p>
+            <p><strong>Optional Domain Availability:</strong> lhexiverse.org</p>
         </section>
 
         <section>
@@ -41,9 +43,18 @@
             <p>This planning document dynamically utilizes the site's intended system color scheme to demonstrate structural layout contrast and readability:</p>
             
             <div class="color-palette">
-                <div class="color-box" style="background-color: #0f172a;">Primary: Deep Slate (#0f172a)<br><span style="font-size:0.8rem; font-weight:normal;">Headers & Structure</span></div>
-                <div class="color-box" style="background-color: #38bdf8; color: #0f172a;">Secondary: Sky Blue (#38bdf8)<br><span style="font-size:0.8rem; font-weight:normal;">Accents & Borders</span></div>
-                <div class="color-box" style="background-color: #efdf77;">Accent: Rose (#efdf77)<br><span style="font-size:0.8rem; font-weight:normal;">Focal Points & Buttons</span></div>
+                <div class="color-box palette-primary">
+                    Primary: Deep Slate (#0f172a)<br>
+                    <span class="palette-subtext">Headers, Navigation, & Structure Backgrounds</span>
+                </div>
+                <div class="color-box palette-secondary">
+                    Secondary: Sky Blue (#38bdf8)<br>
+                    <span class="palette-subtext">Main Headings, Links, & Grid Borders</span>
+                </div>
+                <div class="color-box palette-accent">
+                    Accent: Rose (#f43f5e)<br>
+                    <span class="palette-subtext">Focal Points, Buttons, & Call-to-Actions</span>
+                </div>
             </div>
         </section>
 
@@ -52,11 +63,11 @@
             <ul>
                 <li>
                     <strong>Heading Font:</strong> Trebuchet MS / Sans-serif 
-                    <br>Used for major section layout headings (H1, H2, H3) to establish a crisp, geometric, and modern aesthetic.
+                    <br><strong>Application:</strong> Used for all major layout section headings (H1, H2, H3) to establish a crisp, geometric, and modern tech aesthetic.
                 </li>
                 <li>
                     <strong>Body Font:</strong> Segoe UI / Verdana / Sans-serif 
-                    <br>Used for standard content paragraphs, scenario items, and descriptions to ensure optimal legibility and scanning on high-density screens.
+                    <br><strong>Application:</strong> Used for standard content paragraphs, listed items, metadata descriptions, and tabular text blocks to ensure optimal reading legibility.
                 </li>
             </ul>
         </section>
@@ -70,26 +81,26 @@
                     <h4>Mobile View Layout</h4>
                     <div class="mock-element">[ Logo / Branding ]</div>
                     <div class="mock-element">[ Mobile Nav Menu Trigger ]</div>
-                    <div class="mock-element" style="height: 80px;">[ Intro Hero Header Text ]</div>
+                    <div class="mock-element wireframe-mobile-hero">[ Intro Hero Header Text ]</div>
                     <div class="mock-element">[ Project Thumbnail 1 ]</div>
                     <div class="mock-element">[ Project Thumbnail 2 ]</div>
                     <div class="mock-element">[ Call to Action Button ]</div>
                     <div class="mock-element">[ Compact Footer ]</div>
                 </div>
 
-                <div class="wireframe" style="flex: 1.5;">
+                <div class="wireframe wireframe-desktop-wrapper">
                     <h4>Desktop View Layout</h4>
-                    <div style="display: flex; justify-content: space-between; align-items: center; background: #cbd5e1; padding: 5px 10px; margin-bottom: 8px;">
+                    <div class="wireframe-desktop-nav">
                         <span>[ Logo / Branding ]</span>
                         <span>[ Link 1 | Link 2 | Link 3 ]</span>
                     </div>
-                    <div class="mock-element" style="height: 100px; padding-top: 30px;">[ Split Hero Canvas: Copy Text left / Interactive Demo right ]</div>
+                    <div class="mock-element wireframe-desktop-hero">[ Split Hero Canvas: Copy Text left / Interactive Demo right ]</div>
                     <div class="mock-grid">
                         <div class="mock-col">[ Featured Project A ]</div>
                         <div class="mock-col">[ Featured Project B ]</div>
                         <div class="mock-col">[ Featured Project C ]</div>
                     </div>
-                    <div class="mock-element" style="background: #f43f5e; color: white;">[ High-contrast Contact Footer Section ]</div>
+                    <div class="mock-element wireframe-desktop-footer">[ High-contrast Contact Footer Section ]</div>
                 </div>
             </div>
         </section>
