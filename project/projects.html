@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projects - Lhexiverse</title>
+  <link rel="stylesheet" href="styles/site_plan.css">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="nav-logo">Lhexiverse</div>
+    <button class="nav-toggle" id="navToggle">☰</button>
+    <ul class="nav-menu" id="navMenu">
+      <li><a href="siteplan.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <h1>My Projects</h1>
+    <p>Filter by technology used:</p>
+    
+    <div class="filter-buttons">
+      <button class="filter-btn active" data-category="All">All</button>
+      <button class="filter-btn" data-category="Responsive">Responsive</button>
+      <button class="filter-btn" data-category="JavaScript">JavaScript</button>
+      <button class="filter-btn" data-category="CSS">CSS</button>
+    </div>
+    
+    <div class="projects-grid" id="projectsContainer"></div>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Lhexiverse | <a href="references.html">References</a> | Built by Jonathan Kwadjo Azanu</p>
+  </footer>
+  <script src="scripts/main.js"></script>
+</body>
+</html>
